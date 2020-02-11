@@ -1,0 +1,33 @@
+h1, h2 {
+    color: rgb(216, 69, 65);
+    font-family: fantasy;
+}
+
+
+nav a {
+    color:green;
+}
+
+
+
+a:hover {
+    color: #aaa;
+}
+
+@media screen and (max-width: 50rm) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }
+    form input, textarea {
+        margin: 2px 0;
+    }
+    .hero-text {
+        flex:none;
+    }
+    form select{
+        margin: 0;
+    }
+}
