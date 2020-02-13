@@ -8,13 +8,30 @@ nav a {
     color:green;
 }
 
+#yes {
+    font-size: 2em;
+    border: 5px solid rgb(216,69,65);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
 
+
+.yes {
+    font-size: 2em;
+    border: 5px solid rgb(216,69,65);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
 
 a:hover {
     color: #aaa;
 }
 
-@media screen and (max-width: 50rm) {
+@media screen and (max-width: 50em) {
     header,
     main,
     footer,
