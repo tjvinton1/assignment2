@@ -1,3 +1,9 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(248,222,82)
+}
+
 h1, h2 {
     color: rgb(216, 69, 65);
     font-family: fantasy;
@@ -5,30 +11,36 @@ h1, h2 {
 
 
 nav a {
-    color:green;
+    color:rgb(216,69,65);
 }
 
 #yes {
     font-size: 2em;
     border: 5px solid rgb(216,69,65);
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left: 15px;
-    border-radius: 15px;
+    padding: 15px;
 }
 
 
 .yes {
     font-size: 2em;
     border: 5px solid rgb(216,69,65);
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left: 15px;
-    border-radius: 15px;
+    padding: 15px;
 }
 
 a:hover {
-    color: #aaa;
+    color: red;
+}
+
+.item {
+    
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(216,69,65);
+    
+    width: 150px;
+    height: auto;
+    
+        
 }
 
 @media screen and (max-width: 50em) {
